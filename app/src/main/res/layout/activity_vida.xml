@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    tools:context="com.example.rssreader.Vida.Vida">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            android:textAlignment="center" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.google.android.gms.ads.doubleclick.PublisherAdView
+        android:id="@+id/banner_300x250"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="300x150"
+        ads:adUnitId="/60611244/Amqueretaro_Home_300x150_Cuadro"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <include layout="@layout/content_main"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="220dp"/>
+
+</RelativeLayout>

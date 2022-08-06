@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.rssreader.Contacto.Contacto"
+    android:background="#ffffff"
+    android:textAlignment="center">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                android:id="@+id/view">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    app:navigationIcon="?attr/homeAsUpIndicator"
+                    android:layout_height="?attr/actionBarSize"
+                    android:textAlignment="center" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <ImageView
+                android:layout_width="390dp"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView2"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/textoscontacto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TELÉFONOS"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"
+                android:layout_alignRight="@+id/textView4"
+                android:layout_alignEnd="@+id/textView4"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="30dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Conmutador"
+                android:id="@+id/conmutador"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:importantForAccessibility="yes" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Suscripciones"
+                android:id="@+id/suscripciones"
+                android:layout_below="@+id/conmutador"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:importantForAccessibility="yes" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="ventas"
+                android:id="@+id/ventas"
+                android:layout_below="@+id/suscripcionesr"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:importantForAccessibility="yes" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DIRECCIÓN:
+        Fray Luis de León No. 8051 Col. Centro Sur. Delegación Josefa Vergara. C.P. 76090. Querétaro. Qro.
+        "
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView4"
+                android:layout_alignRight="@+id/textView4"
+                android:layout_alignEnd="@+id/textView4"
+                android:textSize="16dp"
+                android:textColor="#000000"
+                android:textAlignment="inherit"
+                android:layout_margin="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

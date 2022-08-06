@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.NewsDetails"/>
+      <point      
+        x = "2556"      
+        y = "96"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.Noticias.Queretaro"/>
+      <point      
+        x = "3432"      
+        y = "112"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.FragmentDrawer"/>
+      <point      
+        x = "3928"      
+        y = "1632"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.MainActivity"/>
+      <point      
+        x = "28"      
+        y = "52"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.Noticias.Mexico"/>
+      <point      
+        x = "1716"      
+        y = "48"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.Deportes.Deportes"/>
+      <point      
+        x = "1736"      
+        y = "1524"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.Vida.Vida"/>
+      <point      
+        x = "864"      
+        y = "1504"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.Opinion.Opinion"/>
+      <point      
+        x = "24"      
+        y = "1520"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.Noticias.Mundo"/>
+      <point      
+        x = "868"      
+        y = "68"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.rssreader.Economia.Economia"/>
+      <point      
+        x = "2592"      
+        y = "1520"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

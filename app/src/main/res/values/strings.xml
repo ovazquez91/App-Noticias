@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">AM Querétaro</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_news_details">NewsDetails</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_queretaro">QUERÉTARO</string>
+    <string name="title_activity_economia">ECONOMÍA</string>
+    <string name="title_activity_opinion">OPINIÓN</string>
+    <string name="title_activity_deportes">SUPERDEPORTIVO</string>
+    <string name="title_activity_vida">VIDA Y SALUD</string>
+    <string name="title_activity_mexico">MÉXICO</string>
+    <string name="title_activity_mundo">MUNDO</string>
+
+    <string name="title_activity_first_fragment">FirstFragment</string>
+
+    <string name="banner_ad_unit_id">/60611244/Cinefila_Home_728x90(728, 90)</string>
+
+<!-- Strings para menu drawer-->
+
+        <string name="action_search">Search</string>
+        <string name="drawer_open">Open</string>
+        <string name="drawer_close">Close</string>
+
+        <string name="nav_item_home">Home</string>
+        <string name="nav_item_friends">Opinion</string>
+        <string name="nav_item_notifications">Vida y salud</string>
+
+        <!-- navigation drawer item labels  -->
+        <string-array name="nav_drawer_labels">
+            <item>@string/title_activity_queretaro</item>
+            <item>@string/title_activity_mexico</item>
+            <item>@string/title_activity_mundo</item>
+            <item>@string/title_activity_economia</item>
+            <item>@string/title_activity_deportes</item>
+            <item>@string/title_activity_cine</item>
+            <item>@string/title_activity_vida</item>
+            <item>@string/title_activity_opinion</item>
+        </string-array>
+
+        <string name="title_messages">Querétaro</string>
+        <string name="title_friends">Opinión</string>
+        <string name="title_home">Home</string>
+
+
+<!-- termina strings menu drawer -->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">HOLA MUNDO</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_fragment_drawer">FragmentDrawer</string>
+    <string name="title_activity_cine">MÚJER AM</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_pdf">EDICIÓN DE HOY</string>
+    <string name="title_activity_mujer">Mujer</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+</resources>

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rssreader.MainActivity">
+
+
+    <item
+        android:id="@+id/action_refrescar"
+        android:orderInCategory="100"
+        android:title="Actualizar"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contacto"
+        android:orderInCategory="100"
+        android:title="Contáctanos"
+        app:showAsAction="never" />
+
+
+    <!--
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_action_name"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />-->
+
+</menu>

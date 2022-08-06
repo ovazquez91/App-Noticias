@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rssreader.NewsDetails">
+    <!--
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_facebook"
+        android:title="compartir"
+        android:icon="@drawable/ic_action_facebook"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_twitter"
+        android:title="Twitter"
+        android:icon="@drawable/ic_action_twitter"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_compartir"
+        android:title="Whatsapp"
+        android:icon="@drawable/ic_action_whatsapp"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom" />
+
+        -->
+
+    <item
+        android:id="@+id/action_share"
+        android:title="Compartir"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Refrescar"
+        android:title="Dismuir texto"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_CambioT"
+        android:title="Aumentar texto"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contacto"
+        android:title="Contáctanos"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+
+
+</menu>
